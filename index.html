@@ -23,19 +23,22 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#home">الرئيسية</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">خدماتنا</a>
+                        <a class="nav-link" href="#home">الرئيسية</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">من نحن</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#services">خدماتنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#channels">قنواتنا</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#contact">اتصل بنا</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#channels">قنوات الإعلانات والعروض</a>
+                        <a class="nav-link" href="#saudi-branch">فرع المملكة العربية السعودية</a>
                     </li>
                 </ul>
             </div>
@@ -151,40 +154,131 @@
         <div class="container">
             <h2 class="text-center mb-5">اتصل بنا</h2>
             <div class="row">
-                <div class="col-md-6">
-                    <form>
-                        <div class="mb-3">
-                            <label for="name" class="form-label">الاسم</label>
-                            <input type="text" class="form-control" id="name" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">البريد الإلكتروني</label>
-                            <input type="email" class="form-control" id="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">الرسالة</label>
-                            <textarea class="form-control" id="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">إرسال</button>
-                    </form>
-                </div>
-                <div class="col-md-6">
+                <div class="col-lg-6 mb-4">
                     <div class="contact-info">
-                        <h3>معلومات التواصل</h3>
-                        <p><i class="fas fa-phone me-2"></i>+971 52 952 9914</p>
-                        <p><i class="fas fa-phone me-2"></i>+971 55 260 6972</p>
-                        <p><i class="fas fa-phone me-2"></i>+966 53 568 8199</p>
-
-                        
-
-                        <p><i class="fas fa-envelope me-2"></i>alkhawari2024@gmail.com</p>
-                        <p><i class="fas fa-map-marker-alt me-2"></i>الامارات العربية المتحدة</p>
+                        <h3 class="mb-4">معلومات التواصل</h3>
+                        <div class="mb-3">
+                            <i class="fas fa-map-marker-alt me-2"></i>
+                            <span>الامارات العربية المتحدة</span>
+                        </div>
+                        <div class="mb-3">
+                            <i class="fas fa-phone me-2"></i>
+                            <span>+971 52 952 9914</span>
+                        </div>
+                        <div class="mb-3">
+                            <i class="fas fa-phone me-2"></i>
+                            <span>+971 55 260 6972</span>
+                        </div>
+                        <div class="mb-3">
+                            <i class="fas fa-phone me-2"></i>
+                            <span>+966 53 568 8199</span>
+                        </div>
+                        <div class="mb-3">
+                            <i class="fas fa-envelope me-2"></i>
+                            <span>alkhawari2024@gmail.com</span>
+                        </div>
                         <div class="social-links mt-4">
                             <a href="https://www.facebook.com/alkhawari2024" class="me-3" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
                             <a href="https://wa.me/971529529914" class="me-3" target="_blank"><i class="fab fa-whatsapp fa-2x"></i></a>
                             <a href="https://www.instagram.com/alkhawari2024" class="me-3" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
                             <a href="mailto:alkhawari2024@gmail.com" class="me-3"><i class="fas fa-envelope fa-2x"></i></a>
                         </div>
+                    </div>
+                    <div class="map-container mt-4">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.7634357472726!2d46.7998073!3d24.7441637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDQ0JzM5LjAiTiA0NsKwNDcnNTkuMyJF!5e0!3m2!1sar!2ssa!4v1642432185276!5m2!1sar!2ssa" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form class="contact-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="الاسم">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="البريد الإلكتروني">
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" placeholder="رقم الهاتف">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="رسالتك"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">إرسال</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Saudi Branch Section -->
+    <section id="saudi-branch" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">فرع المملكة العربية السعودية</h2>
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6 mb-4">
+                    <div class="branch-image">
+                        <img src="images/saudi-branch.jpg" alt="فرع السعودية" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="branch-info">
+                        <h3 class="mb-4">نبذة عن الفرع</h3>
+                        <p class="mb-4">توسعنا في سوق المملكة العربية السعودية لنكون أقرب إلى عملائنا ولتلبية احتياجاتهم اللوجستية المتزايدة في مجال النقل المبرد. يتواجد فرعنا الرئيسي في العاصمة الرياض، حيث نقوم بتقديم نفس مستوى الخدمة المتميز الذي اشتهرت به شركتنا في الإمارات.</p>
+                        <div class="management-info mb-4">
+                            <h4 class="mb-3">إدارة الفرع</h4>
+                            <div class="d-flex align-items-center mb-2">
+                                <i class="fas fa-user-tie me-2 text-primary"></i>
+                                <span>المدير العام: عبدالهادي العيسى  </span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-phone me-2 text-primary"></i>
+                                <span>هاتف الإدارة: +966 53 568 8199</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="contact-card">
+                        <h4 class="mb-4">معلومات التواصل</h4>
+                        <div class="mb-3">
+                            <i class="fas fa-map-marker-alt me-2"></i>
+                            <span>العنوان: الرياض - حي النسيم - شارع الإمام مسلم</span>
+                        </div>
+                        <div class="mb-3">
+                            <i class="fab fa-whatsapp me-2"></i>
+                            <span>واتساب: +966 53 568 8199</span>
+                        </div>
+                        <div class="mb-3">
+                            <i class="fas fa-envelope me-2"></i>
+                            <span>البريد: saudi@alkhawari2024.com</span>
+                        </div>
+                        <div class="mt-4">
+                            <a href="https://wa.me/966535688199" class="btn btn-success btn-lg w-100">
+                                <i class="fab fa-whatsapp me-2"></i>تواصل عبر واتساب
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="map-container">
+                        <h4 class="mb-4">موقع الفرع</h4>
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.7634357472726!2d46.7998073!3d24.7441637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDQ0JzM5LjAiTiA0NsKwNDcnNTkuMyJF!5e0!3m2!1sar!2ssa!4v1642432185276!5m2!1sar!2ssa" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
                     </div>
                 </div>
             </div>
