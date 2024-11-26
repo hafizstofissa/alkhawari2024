@@ -231,9 +231,24 @@ footer {
 }
 
 /* Saudi Branch Section */
-.branch-image img {
+.branch-image {
+    position: relative;
+    overflow: hidden;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    aspect-ratio: 16/9;
+}
+
+.branch-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease;
+}
+
+.branch-image:hover img {
+    transform: scale(1.05);
 }
 
 .branch-info {
