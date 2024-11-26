@@ -1,14 +1,22 @@
 /* General Styles */
+:root {
+    --primary-color: #DAA520;
+    --primary-hover: #B8860B;
+}
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
     padding-top: 76px;
 }
 
 /* Hero Section */
 .hero-section {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('image/interface.jpg') center/cover;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
     color: white;
-    position: relative;
 }
 
 /* Services Section */
@@ -24,13 +32,13 @@ body {
 }
 
 .card i {
-    color: #0d6efd;
+    color: var(--primary-color);
 }
 
 /* About Section */
 .about-image {
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 /* Contact Section */
@@ -41,13 +49,13 @@ body {
 }
 
 .social-links a {
-    color: #0d6efd;
+    color: var(--primary-color);
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .social-links a:hover {
-    color: #0a58ca;
+    color: var(--primary-hover);
 }
 
 /* Channels Section */
@@ -68,6 +76,21 @@ body {
 
 .channel-card .btn:hover {
     transform: scale(1.05);
+}
+
+/* Custom Button Styles */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
 }
 
 /* Responsive Design */
