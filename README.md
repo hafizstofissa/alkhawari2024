@@ -1,3 +1,6 @@
+# Al-Khawari Project
+This is a test update to verify GitHub synchronization.
+
 # موقع شركة الخواري للنقليات
 
 موقع إلكتروني حديث لشركة الخواري للنقليات يعرض خدمات الشركة ومعلومات التواصل.
