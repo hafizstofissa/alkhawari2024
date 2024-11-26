@@ -56,6 +56,26 @@ body {
     color: #0a58ca;
 }
 
+/* Channels Section */
+.channel-card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.channel-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.channel-card .btn {
+    transition: all 0.3s ease;
+}
+
+.channel-card .btn:hover {
+    transform: scale(1.05);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-section {
