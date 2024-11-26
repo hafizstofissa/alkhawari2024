@@ -114,13 +114,24 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Navigation */
+/* Navbar */
 .navbar {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: var(--primary-color) !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-link:hover {
+    color: #fff !important;
+    opacity: 0.8;
 }
 
 .navbar-brand {
+    color: #fff !important;
     font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff !important;
 }
 
 /* Form Styles */
